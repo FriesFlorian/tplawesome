@@ -8,7 +8,7 @@ None
 
 ## Documentation
 
-As this projects is a single javascript function, you can either import the file directly or copy it in your project.
+As this project is a single javascript function, you can either import the file directly or copy it in your project.
 
 ## Usage examples
 
@@ -18,14 +18,14 @@ Here are some examples of what you could do with tplawesome :
 ```tplawesome("Hello {{name}}!", [{"name":"John", }]); // returns "Hello John!"```
 
 * From an HTML file (with a jQuery ajax call)
-```
-	<article>
-		<header>
-			<h1>{{title}}</h1>
-			<p>Article #{{id}} Published on <time pubdate="pubdate">{{date}}</time></p>
-		</header>
-		<p>...</p>
-	</article>
+```html
+<article>
+	<header>
+		<h1>{{title}}</h1>
+		<p>Article #{{id}} Published on <time pubdate="pubdate">{{date}}</time></p>
+	</header>
+	<p>...</p>
+</article>
 ```
 
 ```javascript
