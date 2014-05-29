@@ -18,10 +18,22 @@ Here are some examples of what you could do with tplawesome :
 ```tplawesome("Hello {{name}}!", [{"name":"John", }]); // returns "Hello John!"```
 
 * From an HTML file (with a jQuery ajax call)
-``` $.ajax({
+```
+	<article>
+		<header>
+			<h1>{{title}}</h1>
+			<p>Article #{{id}} Published on <time pubdate="pubdate">{{date}}</time></p>
+		</header>
+		<p>...</p>
+	</article>
+```
+
+```javascript
+$.ajax({
     url:"your/awesome/template.html", 
     success: function(tpl){
-      $("body").append(tplawesome(tpl, [{"id":"84684", "title":"What a nice day!", "date":"2014", }]));
+      $("body").append(tplawesome(tpl, [{"id":"84684", "title":"What a nice day!", "date":"2014-04-04", }]));
     }
-}); ```
+});
+```
 
