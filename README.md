@@ -4,7 +4,7 @@ The only thing it does is replacing {{keys}} from an HTML template with formatte
 
 ## Requirements
 
-None
+Awesome requirements :D 
 
 ## Documentation
 
