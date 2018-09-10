@@ -1,5 +1,5 @@
 /**
- * @author Florian Fries (mail@flolefries.com)
+ * @author Florian Fries (contact@florianfries.me)
  * @date 04-2014
  */
 function tplawesome(template, data) {
